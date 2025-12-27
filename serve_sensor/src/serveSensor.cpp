@@ -11,7 +11,7 @@ using namespace serve_interfaces;
 
 class ServeData:public rclcpp::Node{
     public:
-        ServeData():Node("sensor"){
+        ServeData():Node("wave_sensor"){
          publisher_ = this->create_publisher<msg::Data>("sensor",10);
             timer_ = this->create_wall_timer(500ms,std::bind(&ServeData::timer_callback,this));
         }
