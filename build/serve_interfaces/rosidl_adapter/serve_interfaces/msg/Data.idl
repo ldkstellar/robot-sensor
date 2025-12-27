@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from serve_interfaces/msg/Data.msg
+// generated code does not contain a copyright notice
+
+
+module serve_interfaces {
+  module msg {
+    struct Data {
+      double distance;
+    };
+  };
+};

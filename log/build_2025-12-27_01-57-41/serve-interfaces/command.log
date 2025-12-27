@@ -1,0 +1,2 @@
+Invoking command in '/home/project/build/serve-interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve-interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve-interfaces
+Invoked command in '/home/project/build/serve-interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve-interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve-interfaces

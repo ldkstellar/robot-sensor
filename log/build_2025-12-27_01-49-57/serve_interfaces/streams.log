@@ -1,0 +1,30 @@
+[0.005s] Invoking command in '/home/project/build/serve_interfaces': /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces
+[0.008s] [31mCMake Error at CMakeLists.txt:31:
+[0.008s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.008s]   string with text "msg/Data.msg
+[0.008s] 
+[0.008s]   )
+[0.008s] 
+[0.008s]   if(BUILD_TESTING)
+[0.008s] 
+[0.008s]     find_package(ament_lint_auto REQUIRED)
+[0.008s]     # the following line skips the linter which checks for copyrights
+[0.008s]     # comment the line when a copyright and license is added to all source files
+[0.008s]     set(ament_cmake_copyright_FOUND TRUE)
+[0.008s]     # the following line skips cpplint (only works in a git repo)
+[0.008s]     # comment the line when this package is in a git repo and when
+[0.009s]     # a copyright and license is added to all source files
+[0.009s]     set(ament_cmake_cpplint_FOUND TRUE)
+[0.009s]     ament_lint_auto_find_test_dependencies()
+[0.009s] 
+[0.009s]   endif()
+[0.009s] 
+[0.009s]   
+[0.009s] 
+[0.009s]   ament_package()
+[0.009s] 
+[0.009s]   ".
+[0.009s] 
+[0.009s] [0m
+[0.009s] -- Configuring incomplete, errors occurred!
+[0.009s] Invoked command in '/home/project/build/serve_interfaces' returned '1': /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces

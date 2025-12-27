@@ -1,0 +1,53 @@
+[0.004s] Invoking command in '/home/project/build/serve_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces
+[0.008s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.055s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.056s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.058s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.079s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.115s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.115s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.115s]   serve_interfaces --arguments-file
+[0.115s]   /home/project/build/serve_interfaces/rosidl_adapter__arguments__serve_interfaces.json
+[0.115s]   --output-dir
+[0.115s]   /home/project/build/serve_interfaces/rosidl_adapter/serve_interfaces
+[0.116s]   --output-file
+[0.116s]   /home/project/build/serve_interfaces/rosidl_adapter/serve_interfaces.idls)
+[0.116s]   returned error code 1:
+[0.116s] 
+[0.116s]   Error processing 'double distance' of 'serve_interfaces/Data': ''double' is
+[0.116s]   an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.116s] 
+[0.116s]   Traceback (most recent call last):
+[0.116s] 
+[0.116s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.116s]       return _run_code(code, main_globals, None,
+[0.116s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.116s]       exec(code, run_globals)
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.116s]       sys.exit(main())
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.116s]       abs_idl_file = convert_to_idl(
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.116s]       return convert_msg_to_idl(
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.116s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.116s]       Type(type_string, context_package_name=pkg_name),
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.116s]       super(Type, self).__init__(
+[0.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.116s]       raise InvalidResourceName(
+[0.116s] 
+[0.116s]   rosidl_adapter.parser.InvalidResourceName: 'double' is an invalid message
+[0.116s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.116s] 
+[0.116s] Call Stack (most recent call first):
+[0.116s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.116s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.116s] 
+[0.116s] [0m
+[0.116s] -- Configuring incomplete, errors occurred!
+[0.116s] See also "/home/project/build/serve_interfaces/CMakeFiles/CMakeOutput.log".
+[0.118s] Invoked command in '/home/project/build/serve_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces

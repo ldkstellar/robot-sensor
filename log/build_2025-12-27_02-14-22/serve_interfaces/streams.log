@@ -1,0 +1,22 @@
+[0.004s] Invoking command in '/home/project/build/serve_interfaces': /usr/bin/cmake --build /home/project/build/serve_interfaces -- -j10 -l10
+[0.013s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.037s] Traceback (most recent call last):
+[0.037s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.037s]     from ament_package.templates import get_environment_hook_template_path
+[0.037s] ModuleNotFoundError: No module named 'ament_package'
+[0.038s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.038s]   execute_process(/usr/bin/python3
+[0.038s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.038s]   /home/project/build/serve_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.038s]   returned error code 1
+[0.038s] Call Stack (most recent call first):
+[0.038s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.038s]   /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.038s]   /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[0.038s]   CMakeLists.txt:8 (find_package)
+[0.038s] 
+[0.038s] [0m
+[0.038s] -- Configuring incomplete, errors occurred!
+[0.038s] See also "/home/project/build/serve_interfaces/CMakeFiles/CMakeOutput.log".
+[0.039s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/project/build/serve_interfaces' returned '2': /usr/bin/cmake --build /home/project/build/serve_interfaces -- -j10 -l10

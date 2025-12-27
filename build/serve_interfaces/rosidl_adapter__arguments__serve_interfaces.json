@@ -1,0 +1,6 @@
+{
+  "package_name": "serve_interfaces",
+  "non_idl_tuples": [
+    "/home/project/serve_interfaces:msg/Data.msg"
+  ]
+}

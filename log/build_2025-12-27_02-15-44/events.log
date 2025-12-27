@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000312] (-) JobUnselected: {'identifier': 'serve_sensor'}
+[0.000331] (serve_interfaces) JobQueued: {'identifier': 'serve_interfaces', 'dependencies': OrderedDict()}
+[0.000345] (serve_interfaces) JobStarted: {'identifier': 'serve_interfaces'}
+[0.002927] (serve_interfaces) JobProgress: {'identifier': 'serve_interfaces', 'progress': 'cmake'}
+[0.003151] (serve_interfaces) JobProgress: {'identifier': 'serve_interfaces', 'progress': 'build'}
+[0.003481] (serve_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/project/build/serve_interfaces', '--', '-j10', '-l10'], 'cwd': '/home/project/build/serve_interfaces', 'env': OrderedDict([('HOSTNAME', 'humble'), ('GIT_ASKPASS', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/project/serve_interfaces'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a2c64314-96b4-4443-a8d4-66dc0e521bf7.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-62e757a6-ed02-4e73-b0b0-e486247cf499.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('USER_ZDOTDIR', '/root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-62e757a6-ed02-4e73-b0b0-e486247cf499.sock"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('ROS_DOMAIN', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-fdbaa4e0f0.sock'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-62e757a6-ed02-4e73-b0b0-e486247cf499.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/project/build/serve_interfaces'), ('ZDOTDIR', '/root'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012592] (serve_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.060629] (serve_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.061476] (serve_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.063527] (serve_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.066793] (serve_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.070840] (serve_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.083748] (serve_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.102634] (-) TimerEvent: {}
+[0.173630] (serve_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.204687] (-) TimerEvent: {}
+[0.305508] (-) TimerEvent: {}
+[0.305718] (serve_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.358386] (serve_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.364289] (serve_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.370444] (serve_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.370506] (serve_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.370529] (serve_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[0.383090] (serve_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.386194] (serve_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.386515] (serve_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.387056] (serve_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.399416] (serve_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.403985] (serve_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/project/build/serve_interfaces\n'}
+[0.406498] (-) TimerEvent: {}
+[0.412339] (serve_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.415556] (serve_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.418672] (serve_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_serve_interfaces\n'}
+[0.483522] (serve_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.483677] (serve_interfaces) StdoutLine: {'line': b'writing serve_interfaces.egg-info/PKG-INFO\n'}
+[0.483782] (serve_interfaces) StdoutLine: {'line': b'writing dependency_links to serve_interfaces.egg-info/dependency_links.txt\n'}
+[0.483870] (serve_interfaces) StdoutLine: {'line': b'writing top-level names to serve_interfaces.egg-info/top_level.txt\n'}
+[0.484414] (serve_interfaces) StdoutLine: {'line': b"reading manifest file 'serve_interfaces.egg-info/SOURCES.txt'\n"}
+[0.484656] (serve_interfaces) StdoutLine: {'line': b"writing manifest file 'serve_interfaces.egg-info/SOURCES.txt'\n"}
+[0.496492] (serve_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_serve_interfaces_egg\n'}
+[0.504252] (serve_interfaces) StdoutLine: {'line': b'[  6%] Built target serve_interfaces__cpp\n'}
+[0.504381] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.507479] (-) TimerEvent: {}
+[0.507845] (serve_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.507969] (serve_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.508174] (serve_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.508426] (serve_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_generator_c.dir/rosidl_generator_c/serve_interfaces/msg/detail/data__functions.c.o\x1b[0m\n'}
+[0.532587] (serve_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libserve_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.546934] (serve_interfaces) StdoutLine: {'line': b'[ 22%] Built target serve_interfaces__rosidl_generator_c\n'}
+[0.550855] (serve_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.553464] (serve_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.553595] (serve_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.590981] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.597835] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.599219] (serve_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serve_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serve_interfaces/msg/data__type_support.cpp.o\x1b[0m\n'}
+[0.605082] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.606267] (serve_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serve_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serve_interfaces/msg/detail/data__type_support.cpp.o\x1b[0m\n'}
+[0.608433] (-) TimerEvent: {}
+[0.613092] (serve_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/serve_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serve_interfaces/msg/detail/dds_fastrtps/data__type_support.cpp.o\x1b[0m\n'}
+[0.644932] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.651741] (serve_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/serve_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/serve_interfaces/msg/data__type_support.cpp.o\x1b[0m\n'}
+[0.654144] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.658234] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.661200] (serve_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serve_interfaces/msg/detail/data__type_support.c.o\x1b[0m\n'}
+[0.666937] (serve_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/serve_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serve_interfaces/msg/detail/data__type_support_c.cpp.o\x1b[0m\n'}
+[0.668813] (serve_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libserve_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.678087] (serve_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libserve_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.696403] (serve_interfaces) StdoutLine: {'line': b'[ 58%] Built target serve_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.696708] (serve_interfaces) StdoutLine: {'line': b'[ 58%] Built target serve_interfaces__rosidl_typesupport_c\n'}
+[0.700146] (serve_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libserve_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.709413] (-) TimerEvent: {}
+[0.715736] (serve_interfaces) StdoutLine: {'line': b'[ 61%] Built target serve_interfaces__rosidl_typesupport_cpp\n'}
+[0.746553] (serve_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libserve_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.756044] (serve_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libserve_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.761628] (serve_interfaces) StdoutLine: {'line': b'[ 67%] Built target serve_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.780469] (serve_interfaces) StdoutLine: {'line': b'[ 67%] Built target serve_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.781875] (serve_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libserve_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.804246] (serve_interfaces) StdoutLine: {'line': b'[ 70%] Built target serve_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.809765] (serve_interfaces) StdoutLine: {'line': b'[ 70%] Built target serve_interfaces\n'}
+[0.809813] (-) TimerEvent: {}
+[0.815571] (serve_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.910416] (-) TimerEvent: {}
+[0.913768] (serve_interfaces) StdoutLine: {'line': b'[ 74%] Built target serve_interfaces__py\n'}
+[0.916683] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.920952] (serve_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_generator_py.dir/rosidl_generator_py/serve_interfaces/msg/_data_s.c.o\x1b[0m\n'}
+[0.954229] (serve_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serve_interfaces/libserve_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[0.967233] (serve_interfaces) StdoutLine: {'line': b'[ 80%] Built target serve_interfaces__rosidl_generator_py\n'}
+[0.970637] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.970722] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.970748] (serve_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serve_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.975032] (serve_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[0.975102] (serve_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[0.975129] (serve_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serve_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.011547] (-) TimerEvent: {}
+[1.011769] (serve_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serve_interfaces/serve_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.011854] (serve_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serve_interfaces/serve_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.011882] (serve_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serve_interfaces/serve_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.026277] (serve_interfaces) StdoutLine: {'line': b'[100%] Built target serve_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.026382] (serve_interfaces) StdoutLine: {'line': b'[100%] Built target serve_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.026408] (serve_interfaces) StdoutLine: {'line': b'[100%] Built target serve_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.030094] (serve_interfaces) CommandEnded: {'returncode': 0}
+[1.030534] (serve_interfaces) JobProgress: {'identifier': 'serve_interfaces', 'progress': 'install'}
+[1.033287] (serve_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/project/build/serve_interfaces'], 'cwd': '/home/project/build/serve_interfaces', 'env': OrderedDict([('HOSTNAME', 'humble'), ('GIT_ASKPASS', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/project/serve_interfaces'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a2c64314-96b4-4443-a8d4-66dc0e521bf7.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-62e757a6-ed02-4e73-b0b0-e486247cf499.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('USER_ZDOTDIR', '/root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-62e757a6-ed02-4e73-b0b0-e486247cf499.sock"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('ROS_DOMAIN', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-fdbaa4e0f0.sock'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-62e757a6-ed02-4e73-b0b0-e486247cf499.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/project/build/serve_interfaces'), ('ZDOTDIR', '/root'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.035623] (serve_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.035720] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/ament_index/resource_index/rosidl_interfaces/serve_interfaces\n'}
+[1.035798] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.035839] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.035872] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.035906] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.035967] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__functions.h\n'}
+[1.035994] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__type_support.h\n'}
+[1.036026] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__struct.h\n'}
+[1.036055] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__functions.c\n'}
+[1.036134] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/data.h\n'}
+[1.036161] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/environment/library_path.sh\n'}
+[1.036178] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/environment/library_path.dsv\n'}
+[1.036246] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_generator_c.so\n'}
+[1.036366] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_generator_c.so" to ""\n'}
+[1.036418] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.036437] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.036463] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.036524] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.036576] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.036656] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.036716] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.036751] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.036806] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.036837] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/data.hpp\n'}
+[1.036867] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.036898] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.036952] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__struct.hpp\n'}
+[1.036990] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__type_support.hpp\n'}
+[1.037042] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__builder.hpp\n'}
+[1.037079] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__traits.hpp\n'}
+[1.037104] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.037144] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.037206] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.037249] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.037280] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/dds_fastrtps\n'}
+[1.037340] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.037384] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.037430] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.037449] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.037583] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.037655] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.037683] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.037732] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__type_support.c\n'}
+[1.037753] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[1.037803] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.037826] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.037844] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_c.so\n'}
+[1.037924] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[1.037961] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces\n'}
+[1.038013] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg\n'}
+[1.038031] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail\n'}
+[1.038047] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.038068] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/include/serve_interfaces/serve_interfaces/msg/detail/data__type_support.cpp\n'}
+[1.038125] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.038246] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.038329] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.038439] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[1.038485] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/environment/pythonpath.sh\n'}
+[1.038542] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/environment/pythonpath.dsv\n'}
+[1.038570] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.038598] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.038663] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.038724] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.038755] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.038815] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces\n'}
+[1.038842] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.038893] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/libserve_interfaces__rosidl_generator_py.so\n'}
+[1.038917] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.038983] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.039053] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.039085] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/_serve_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.039142] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/__init__.py\n'}
+[1.039168] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg\n'}
+[1.039190] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg/_data.py\n'}
+[1.039246] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg/__init__.py\n'}
+[1.039271] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg/_data_s.c\n'}
+[1.039332] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.050945] (serve_interfaces) StdoutLine: {'line': b"Listing '/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces'...\n"}
+[1.051000] (serve_interfaces) StdoutLine: {'line': b"Compiling '/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/__init__.py'...\n"}
+[1.051020] (serve_interfaces) StdoutLine: {'line': b"Listing '/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg'...\n"}
+[1.051036] (serve_interfaces) StdoutLine: {'line': b"Compiling '/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg/__init__.py'...\n"}
+[1.051052] (serve_interfaces) StdoutLine: {'line': b"Compiling '/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/msg/_data.py'...\n"}
+[1.052897] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.053010] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.053087] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.053194] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.053272] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.053388] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/local/lib/python3.10/dist-packages/serve_interfaces/serve_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.053451] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_generator_py.so\n'}
+[1.053574] (serve_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/project/install/serve_interfaces/lib/libserve_interfaces__rosidl_generator_py.so" to ""\n'}
+[1.053633] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/msg/Data.idl\n'}
+[1.053699] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/msg/Data.msg\n'}
+[1.053768] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/ament_index/resource_index/package_run_dependencies/serve_interfaces\n'}
+[1.053795] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/ament_index/resource_index/parent_prefix_path/serve_interfaces\n'}
+[1.053822] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/environment/ament_prefix_path.sh\n'}
+[1.053903] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.053944] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/environment/path.sh\n'}
+[1.053973] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/environment/path.dsv\n'}
+[1.054001] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/local_setup.bash\n'}
+[1.054057] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/local_setup.sh\n'}
+[1.054086] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/local_setup.zsh\n'}
+[1.054116] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/local_setup.dsv\n'}
+[1.054173] (serve_interfaces) StdoutLine: {'line': b'-- Installing: /home/project/install/serve_interfaces/share/serve_interfaces/package.dsv\n'}
+[1.054234] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/ament_index/resource_index/packages/serve_interfaces\n'}
+[1.054262] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.054301] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.054325] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.054353] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.054422] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.054505] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.054531] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.054548] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.054569] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.054591] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.054614] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.054634] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.054701] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.054724] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.054742] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.054768] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.054789] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/export_serve_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.054810] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.054829] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.054846] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.054864] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.054879] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.054894] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.054909] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.054925] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfacesConfig.cmake\n'}
+[1.054940] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/cmake/serve_interfacesConfig-version.cmake\n'}
+[1.054955] (serve_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/project/install/serve_interfaces/share/serve_interfaces/package.xml\n'}
+[1.055580] (serve_interfaces) CommandEnded: {'returncode': 0}
+[1.062038] (serve_interfaces) JobEnded: {'identifier': 'serve_interfaces', 'rc': 0}
+[1.062334] (-) EventReactorShutdown: {}

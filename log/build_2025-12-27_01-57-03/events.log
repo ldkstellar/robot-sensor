@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000179] (-) JobUnselected: {'identifier': 'serve-interfaces'}
+[0.000199] (-) JobUnselected: {'identifier': 'serve-sensor'}
+[0.000328] (-) EventReactorShutdown: {}

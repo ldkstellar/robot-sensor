@@ -1,0 +1,30 @@
+[0.004s] Invoking command in '/home/project/build/serve_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces
+[0.006s] [31mCMake Error at CMakeLists.txt:31:
+[0.006s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.006s]   string with text "msg/Data.msg
+[0.006s] 
+[0.006s]   )
+[0.006s] 
+[0.006s]   if(BUILD_TESTING)
+[0.006s] 
+[0.006s]     find_package(ament_lint_auto REQUIRED)
+[0.006s]     # the following line skips the linter which checks for copyrights
+[0.006s]     # comment the line when a copyright and license is added to all source files
+[0.006s]     set(ament_cmake_copyright_FOUND TRUE)
+[0.006s]     # the following line skips cpplint (only works in a git repo)
+[0.007s]     # comment the line when this package is in a git repo and when
+[0.007s]     # a copyright and license is added to all source files
+[0.007s]     set(ament_cmake_cpplint_FOUND TRUE)
+[0.007s]     ament_lint_auto_find_test_dependencies()
+[0.007s] 
+[0.007s]   endif()
+[0.007s] 
+[0.007s]   
+[0.007s] 
+[0.007s]   ament_package()
+[0.007s] 
+[0.007s]   ".
+[0.007s] 
+[0.007s] [0m
+[0.007s] -- Configuring incomplete, errors occurred!
+[0.007s] Invoked command in '/home/project/build/serve_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces

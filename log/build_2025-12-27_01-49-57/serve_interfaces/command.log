@@ -1,0 +1,2 @@
+Invoking command in '/home/project/build/serve_interfaces': /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces
+Invoked command in '/home/project/build/serve_interfaces' returned '1': /usr/bin/cmake /home/project/serve_interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve_interfaces

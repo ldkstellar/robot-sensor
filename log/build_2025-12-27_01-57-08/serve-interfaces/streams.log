@@ -1,0 +1,33 @@
+[0.004s] Invoking command in '/home/project/build/serve-interfaces': /usr/bin/cmake /home/project/serve-interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve-interfaces
+[0.023s] -- The C compiler identification is GNU 11.4.0
+[0.043s] -- The CXX compiler identification is GNU 11.4.0
+[0.045s] -- Detecting C compiler ABI info
+[0.068s] -- Detecting C compiler ABI info - done
+[0.071s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.071s] -- Detecting C compile features
+[0.071s] -- Detecting C compile features - done
+[0.072s] -- Detecting CXX compiler ABI info
+[0.098s] -- Detecting CXX compiler ABI info - done
+[0.101s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.101s] -- Detecting CXX compile features
+[0.101s] -- Detecting CXX compile features - done
+[0.104s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.104s]   By not providing "Findgeometry_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.104s]   project has asked CMake to find a package configuration file provided by
+[0.104s]   "geometry_msgs", but CMake did not find one.
+[0.104s] 
+[0.104s]   Could not find a package configuration file provided by "geometry_msgs"
+[0.104s]   with any of the following names:
+[0.104s] 
+[0.104s]     geometry_msgsConfig.cmake
+[0.104s]     geometry_msgs-config.cmake
+[0.104s] 
+[0.104s]   Add the installation prefix of "geometry_msgs" to CMAKE_PREFIX_PATH or set
+[0.104s]   "geometry_msgs_DIR" to a directory containing one of the above files.  If
+[0.104s]   "geometry_msgs" provides a separate development package or SDK, be sure it
+[0.104s]   has been installed.
+[0.104s] 
+[0.104s] [0m
+[0.104s] -- Configuring incomplete, errors occurred!
+[0.104s] See also "/home/project/build/serve-interfaces/CMakeFiles/CMakeOutput.log".
+[0.105s] Invoked command in '/home/project/build/serve-interfaces' returned '1': /usr/bin/cmake /home/project/serve-interfaces -DCMAKE_INSTALL_PREFIX=/home/project/install/serve-interfaces

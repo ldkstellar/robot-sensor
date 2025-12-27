@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000071] (-) JobUnselected: {'identifier': 'serve-sensor'}
+[0.000092] (serve-interfaces) JobQueued: {'identifier': 'serve-interfaces', 'dependencies': OrderedDict()}
+[0.000433] (serve-interfaces) JobStarted: {'identifier': 'serve-interfaces'}
+[0.002967] (serve-interfaces) JobProgress: {'identifier': 'serve-interfaces', 'progress': 'cmake'}
+[0.003261] (serve-interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/project/serve-interfaces', '-DCMAKE_INSTALL_PREFIX=/home/project/install/serve-interfaces'], 'cwd': '/home/project/build/serve-interfaces', 'env': OrderedDict([('HOSTNAME', 'humble'), ('GIT_ASKPASS', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/project'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-15a6d4a6-cc8d-4351-8438-d1cb30cfd6c8.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cc07af41-a117-43b6-9ed6-6bf60fb4de6f.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('USER_ZDOTDIR', '/root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cc07af41-a117-43b6-9ed6-6bf60fb4de6f.sock"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('ROS_DOMAIN', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-49f5835db8.sock'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cc07af41-a117-43b6-9ed6-6bf60fb4de6f.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/project/build/serve-interfaces'), ('ZDOTDIR', '/root'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008832] (serve-interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.053577] (serve-interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.093184] (serve-interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.094726] (serve-interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.097406] (serve-interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.101224] (-) TimerEvent: {}
+[0.101445] (serve-interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.106607] (serve-interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.120808] (serve-interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.157667] (serve-interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.157756] (serve-interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.157792] (serve-interfaces) StderrLine: {'line': b'  serve-interfaces --arguments-file\n'}
+[0.157848] (serve-interfaces) StderrLine: {'line': b'  /home/project/build/serve-interfaces/rosidl_adapter__arguments__serve-interfaces.json\n'}
+[0.157869] (serve-interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.157888] (serve-interfaces) StderrLine: {'line': b'  /home/project/build/serve-interfaces/rosidl_adapter/serve-interfaces\n'}
+[0.157907] (serve-interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.157925] (serve-interfaces) StderrLine: {'line': b'  /home/project/build/serve-interfaces/rosidl_adapter/serve-interfaces.idls)\n'}
+[0.157943] (serve-interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.157961] (serve-interfaces) StderrLine: {'line': b'\n'}
+[0.157979] (serve-interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.157996] (serve-interfaces) StderrLine: {'line': b'\n'}
+[0.158014] (serve-interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.158032] (serve-interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.158050] (serve-interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.158067] (serve-interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.158085] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.158103] (serve-interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.158121] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.158139] (serve-interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.158157] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.158175] (serve-interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.158192] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.158212] (serve-interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.158230] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[0.158250] (serve-interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.158268] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[0.158286] (serve-interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.158304] (serve-interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 201, in __init__\n'}
+[0.158322] (serve-interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.158339] (serve-interfaces) StderrLine: {'line': b'\n'}
+[0.158357] (serve-interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'serve-interfaces' is an invalid\n"}
+[0.158375] (serve-interfaces) StderrLine: {'line': b'  package name.  It should have the pattern\n'}
+[0.158393] (serve-interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.158410] (serve-interfaces) StderrLine: {'line': b'\n'}
+[0.158427] (serve-interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.158445] (serve-interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.158473] (serve-interfaces) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[0.158492] (serve-interfaces) StderrLine: {'line': b'\n'}
+[0.158509] (serve-interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.158527] (serve-interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.158549] (serve-interfaces) StdoutLine: {'line': b'See also "/home/project/build/serve-interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.159584] (serve-interfaces) CommandEnded: {'returncode': 1}
+[0.166790] (serve-interfaces) JobEnded: {'identifier': 'serve-interfaces', 'rc': 1}
+[0.178605] (-) EventReactorShutdown: {}
